@@ -14,6 +14,7 @@
 		FD84FFFB2C8364880013D0E5 /* readySetGoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84FFFA2C8364880013D0E5 /* readySetGoApp.swift */; };
 		FD84FFFD2C8364880013D0E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84FFFC2C8364880013D0E5 /* ContentView.swift */; };
 		FD84FFFF2C83648B0013D0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD84FFFE2C83648B0013D0E5 /* Assets.xcassets */; };
+		FDB77CA42C8CAD22002220BA /* MainWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB77CA32C8CAD22002220BA /* MainWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		FD84FFFA2C8364880013D0E5 /* readySetGoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readySetGoApp.swift; sourceTree = "<group>"; };
 		FD84FFFC2C8364880013D0E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD84FFFE2C83648B0013D0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB77CA32C8CAD22002220BA /* MainWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWebView.swift; sourceTree = "<group>"; };
+		FDB77CA52C8CAE38002220BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,11 +123,13 @@
 		FD84FFF92C8364880013D0E5 /* readySetGo */ = {
 			isa = PBXGroup;
 			children = (
+				FDB77CA52C8CAE38002220BA /* Info.plist */,
 				FD84FFFA2C8364880013D0E5 /* readySetGoApp.swift */,
 				FD84FFFC2C8364880013D0E5 /* ContentView.swift */,
 				FD84FFFE2C83648B0013D0E5 /* Assets.xcassets */,
 				FD8400002C83648B0013D0E5 /* readySetGo.entitlements */,
 				FD8400012C83648B0013D0E5 /* Preview Content */,
+				FDB77CA32C8CAD22002220BA /* MainWebView.swift */,
 			);
 			path = readySetGo;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD84FFFD2C8364880013D0E5 /* ContentView.swift in Sources */,
+				FDB77CA42C8CAD22002220BA /* MainWebView.swift in Sources */,
 				FD84FFFB2C8364880013D0E5 /* readySetGoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +425,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = readySetGo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -457,6 +464,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = readySetGo/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;

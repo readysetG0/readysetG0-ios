@@ -6,16 +6,13 @@
 //
 
 import SwiftUI
+import WebKit
 
 struct ContentView: View {
+    var url: String = "https://www.naver.com"
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        MainWebView(urlToLoad: url)
     }
 }
 
