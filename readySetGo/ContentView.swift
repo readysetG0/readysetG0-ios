@@ -9,7 +9,7 @@ import SwiftUI
 import WebKit
 
 struct ContentView: View {
-    var url: String = "https://www.naver.com"
+    var url: String = Bundle.main.WEBVIEW_URL
     
     var body: some View {
         MainWebView(urlToLoad: url)
